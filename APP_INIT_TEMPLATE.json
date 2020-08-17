@@ -1,0 +1,11 @@
+{
+    "name": "homebrew_app",
+    "template": "React InstantSearch",
+    "libraryVersion": "6.7.0",
+    "appId": "<YOUR_APP_ID>",
+    "apiKey": "<YOUR_SEARCH_API_KEY>",
+    "indexName": "<YOUR_INDEX_NAME>",
+    "searchPlaceholder": "Whatcha thirstin matey?",
+    "attributesToDisplay": ["name", "description", "image_url", "abv", "ibu", "srm", "ingredients"],
+    "attributesForFaceting": ["ingredients.yeast", "ingredients.hops.name", "ingredients.malt.name"]
+}
