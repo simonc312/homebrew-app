@@ -58,3 +58,11 @@ em {
   margin: 2rem auto;
   text-align: center;
 }
+
+.homebrew-img {
+  height: auto; 
+  width: 80px;
+  margin: auto;
+  display: flex;
+  align-content: center;
+}
