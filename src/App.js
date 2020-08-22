@@ -84,6 +84,16 @@ class App extends Component {
                     { label: '>= 40 strong & hoppy', start: 40 },
                   ]}
                 />
+                <p className='ais-Panel-header'>SRM</p>
+                <CustomNumericMenu
+                  attribute="srm"
+                  items={[
+                    { label: '<= 10 like pilsners', end: 10 },
+                    { label: '10 to 20 like amber ales', start: 10, end: 20 },
+                    { label: '10 to 20 like brown ales', start: 20, end: 30 },
+                    { label: '>= 30 dark like porters & stouts', start: 30 },
+                  ]}
+                />
                 <p className='ais-Panel-header'>Malts</p>
                 <RefinementList attribute="ingredients.malt.name" />
                 <p className='ais-Panel-header'>Hops</p>
