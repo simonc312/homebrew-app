@@ -133,9 +133,6 @@ function Hit(props) {
         <i>{props.hit && props.hit.tagline}</i>
       </p>
       <p>
-        <Highlight attribute="description" hit={props.hit} />
-      </p>
-      <p>
         <img alt="homebrew"
           className="homebrew-img" 
          src={props.hit && props.hit.image_url}/>
@@ -154,6 +151,9 @@ function Hit(props) {
       </p>
       <p>
         <Highlight attribute="ingredients" hit={props.hit} />
+      </p>
+      <p>
+        <Highlight attribute="description" hit={props.hit} />
       </p>
     </article>
   );
