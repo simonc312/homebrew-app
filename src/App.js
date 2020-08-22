@@ -88,10 +88,10 @@ class App extends Component {
                 <CustomNumericMenu
                   attribute="srm"
                   items={[
-                    { label: '<= 10 like pilsners', end: 10 },
-                    { label: '10 to 20 like amber ales', start: 10, end: 20 },
-                    { label: '20 to 30 like brown ales', start: 20, end: 30 },
-                    { label: '>= 30 dark like porters & stouts', start: 30 },
+                    { label: <p className="homebrew-srm pilsner">{'<= 10 like pilsners'}</p>, end: 10 },
+                    { label: <p className="homebrew-srm amber">{'10 to 20 like amber ales'}</p>, start: 10, end: 20 },
+                    { label: <p className="homebrew-srm brown">{'20 to 30 like brown ales'}</p>, start: 20, end: 30 },
+                    { label: <p className="homebrew-srm stout">{'>= 30 dark like porters & stouts'}</p>, start: 30 },
                   ]}
                 />
                 <p className='ais-Panel-header'>Malts</p>

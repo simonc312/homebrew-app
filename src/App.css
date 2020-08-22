@@ -66,3 +66,29 @@ em {
   display: flex;
   align-content: center;
 }
+
+.homebrew-srm {
+  display: inline-flex;
+  align-items: center;
+  min-height: 20px;
+  padding: 0.5rem 0.5rem;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.homebrew-srm.pilsner {
+  background-image: linear-gradient(to right, #F3F993, #BE823A);
+}
+
+.homebrew-srm.amber {
+  background-image: linear-gradient(to right, #BE823A, #5D341A);
+}
+
+.homebrew-srm.brown {
+  background-image: linear-gradient(to right, #5D341A, #050B0A);
+}
+
+.homebrew-srm.stout {
+  background-image: linear-gradient(to right, #050B0A, black);
+}
+
