@@ -90,7 +90,7 @@ class App extends Component {
                   items={[
                     { label: '<= 10 like pilsners', end: 10 },
                     { label: '10 to 20 like amber ales', start: 10, end: 20 },
-                    { label: '10 to 20 like brown ales', start: 20, end: 30 },
+                    { label: '20 to 30 like brown ales', start: 20, end: 30 },
                     { label: '>= 30 dark like porters & stouts', start: 30 },
                   ]}
                 />
